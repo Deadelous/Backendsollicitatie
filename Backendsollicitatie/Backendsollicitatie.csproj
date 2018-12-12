@@ -83,7 +83,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IFizzBuzzcs.cs" />
+    <Compile Include="Interfaces\ISommatie.cs" />
     <Compile Include="Models\Fizzbuzz.cs" />
+    <Compile Include="Models\Sommatie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

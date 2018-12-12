@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using Backendsollicitatie.Models;
+using Backendsollicitatie.Interfaces;
 
 namespace Backendsollicitatie.Facade
 {
   public class facade
   {
-    Fizzbuzz fizz;
+    IFizzBuzzcs fizz;
+    ISommatie sommatie;
+  
 
     public facade()
     {
       fizz = new Fizzbuzz();
+      sommatie = new Sommatie();
     }
 
     public List<string> fizzbuzzplan(int from, int to)
@@ -20,5 +22,9 @@ namespace Backendsollicitatie.Facade
       return fizz.plainText(from, to);
     }
 
+    public string sommatieformatie()
+    {
+      return sommatie.formatSommatie();
+    }
   }
 }

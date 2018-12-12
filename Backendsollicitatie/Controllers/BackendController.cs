@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using Backendsollicitatie.Facade;
 
@@ -18,6 +15,14 @@ namespace Backendsollicitatie.Controllers
     public List<string> GetFizzBuzzElement(int from, int to)
     {
       return facade.fizzbuzzplan(from,to);
+    }
+
+
+    [HttpGet]
+    [Route("formateer/sommatie")]
+    public string sommatieformatie()
+    {
+      return facade.sommatieformatie();
     }
   }
 }
