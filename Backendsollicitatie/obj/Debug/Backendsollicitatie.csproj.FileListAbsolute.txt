@@ -1,0 +1,16 @@
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\obj\Debug\Backendsollicitatie.csprojResolveAssemblyReference.cache
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\obj\Debug\Backendsollicitatie.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\Backendsollicitatie.dll.config
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\Backendsollicitatie.dll
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\Backendsollicitatie.pdb
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\Newtonsoft.Json.dll
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\System.Net.Http.Formatting.dll
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\System.Web.Http.dll
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\System.Web.Http.WebHost.dll
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\Newtonsoft.Json.pdb
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\Newtonsoft.Json.xml
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\System.Net.Http.Formatting.xml
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\System.Web.Http.xml
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\bin\System.Web.Http.WebHost.xml
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\obj\Debug\Backendsollicitatie.dll
+D:\Program Files (x86)\BackendSollicitatie\Backendsollicitatie\Backendsollicitatie\obj\Debug\Backendsollicitatie.pdb
