@@ -72,19 +72,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\FizzBuzzController.cs" />
+    <Compile Include="Controllers\BackendController.cs" />
     <Compile Include="Facade\facade.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IFizzBuzzcs.cs" />
+    <Compile Include="Interfaces\IGroup.cs" />
     <Compile Include="Interfaces\ISommatie.cs" />
     <Compile Include="Models\Fizzbuzz.cs" />
+    <Compile Include="Models\Groupplain.cs" />
     <Compile Include="Models\Sommatie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
