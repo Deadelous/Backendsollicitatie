@@ -15,7 +15,6 @@ namespace Backendsollicitatie.Models
                 null,
                 "    -5555",
                 "6.767",
-
             };
     }
 

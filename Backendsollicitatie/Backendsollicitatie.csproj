@@ -85,8 +85,10 @@
     </Compile>
     <Compile Include="Interfaces\IFizzBuzzcs.cs" />
     <Compile Include="Interfaces\IGroup.cs" />
+    <Compile Include="Interfaces\IJson.cs" />
     <Compile Include="Interfaces\ISommatie.cs" />
     <Compile Include="Models\Fizzbuzz.cs" />
+    <Compile Include="Models\Groupjson.cs" />
     <Compile Include="Models\Groupplain.cs" />
     <Compile Include="Models\Sommatie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

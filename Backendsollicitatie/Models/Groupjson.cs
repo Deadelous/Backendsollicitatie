@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Backendsollicitatie.Interfaces;
+using Newtonsoft.Json;
 
 namespace Backendsollicitatie.Models
 {
-  public class Groupplain : IGroup
+  public class Groupjson : IJson
   {
-    public Dictionary<int, int> GetElements()
+    public string  GetElements()
     {
       IEnumerable<int> elements = RandomNumbers();
       IEnumerable<int> result = elements.OrderBy(e => e);
       Dictionary<int, int> dictionary = new Dictionary<int, int>();
       var element = elements.OrderBy(e => e).OrderByDescending(k => k);
-
       List<int> list = new List<int>();
-     
+
       foreach (var e in element)
       {
         if (dictionary.ContainsKey(e))
         {
+        
           var count = dictionary[e]++;
-          list.Add(dictionary.Values.Count);
-          
+          list.Add(dictionary.Keys.Count);
+
           string.Format("{0}: {1} keer", dictionary.Keys, dictionary.Values);
         }
         else
@@ -31,8 +32,9 @@ namespace Backendsollicitatie.Models
           list.Add(dictionary[e] = 1);
         }
       }
-      return dictionary;
-     
+      string json = JsonConvert.SerializeObject(dictionary.OrderBy(o => o.Value), Formatting.Indented);
+      return json;
+
     }
 
     public static IEnumerable<int> RandomNumbers(int seed = 123)

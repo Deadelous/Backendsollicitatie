@@ -31,5 +31,12 @@ namespace Backendsollicitatie.Controllers
     {
       return facade.groupPlain();
     }
+
+    [HttpGet]
+    [Route("group/json")]
+    public string groupJson()
+    {
+      return facade.groupJson();
+    }
   }
 }
