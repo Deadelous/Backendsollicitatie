@@ -9,12 +9,16 @@ namespace Backendsollicitatie.Facade
   {
     IFizzBuzzcs fizz;
     ISommatie sommatie;
+    IGroup group;
+    IJson json;
   
 
     public facade()
     {
       fizz = new Fizzbuzz();
       sommatie = new Sommatie();
+      group = new Groupplain();
+      json = new Groupjson();
     }
 
     public List<string> fizzbuzzplan(int from, int to)
@@ -25,6 +29,16 @@ namespace Backendsollicitatie.Facade
     public string sommatieformatie()
     {
       return sommatie.formatSommatie();
+    }
+
+    public Dictionary<int, int> groupPlain()
+    {
+      return group.GetElements();
+    }
+
+    public string groupJson()
+    {
+      return json.GetElements();
     }
   }
 }

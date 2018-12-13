@@ -6,7 +6,7 @@ using Backendsollicitatie.Facade;
 namespace Backendsollicitatie.Controllers
 {
   [Route("api/[controller]")]
-  public class FizzBuzzController : ApiController
+  public class BackendController : ApiController
   {
     facade facade = new facade();
  
@@ -20,9 +20,23 @@ namespace Backendsollicitatie.Controllers
 
     [HttpGet]
     [Route("formateer/sommatie")]
-    public string sommatieformatie()
+    public string sommatieFormation()
     {
       return facade.sommatieformatie();
+    }
+
+    [HttpGet]
+    [Route("group/plain")]
+    public Dictionary<int, int> groupPlain()
+    {
+      return facade.groupPlain();
+    }
+
+    [HttpGet]
+    [Route("group/json")]
+    public string groupJson()
+    {
+      return facade.groupJson();
     }
   }
 }
